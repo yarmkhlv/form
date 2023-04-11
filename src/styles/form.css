@@ -1,0 +1,130 @@
+.form__block {
+  margin-bottom: 32px;
+}
+
+.form__label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-weight: 600;
+
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.form__input {
+  width: 100%;
+
+  font-size: 16px;
+  color: rgba(51, 51, 51, 1);
+
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 16px;
+}
+.form__input:focus {
+  border: 2px solid #7a5cfa;
+}
+
+/*PASSWORD ------------- */
+.form__pass-warning {
+  font-size: 12px;
+}
+
+/*Block CHECKBOX -----------*/
+.form__checkbox {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+}
+
+.form__block__checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+/* Block TOGGLE --------*/
+.form__block-toggle {
+  margin-bottom: 32px;
+}
+.switch {
+  display: inline-block;
+  position: relative;
+  width: 49px;
+  height: 24px;
+  border: 1px solid #cccccc;
+  border-radius: 32px;
+}
+.switch__input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+.swich__slider::before {
+  content: "";
+  position: absolute;
+  cursor: pointer;
+  left: 3px;
+  top: 2px;
+  height: 18px;
+  width: 18px;
+  background: #f4f4f4;
+  border: 1px solid #cccccc;
+  border-radius: 32px;
+}
+
+/*Block RADIO ---------*/
+.form__block-radio {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 32px;
+}
+.form__radio-selection {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+
+  border: 1px solid #cccccc;
+  border-radius: 32px;
+}
+.form__radio-label {
+  line-height: 150%;
+}
+
+/*DropDown ---------------*/
+.form__block-dropdown {
+  margin-bottom: 32px;
+}
+
+/*Submit btn -------------*/
+
+.form__btn-block {
+  display: flex;
+  justify-content: space-between;
+}
+.form__btn-submit {
+  width: 156px;
+  padding: 16px;
+  color: #ffffff;
+  background: #7a5cfa;
+  border-radius: 8px;
+}
+.form__btn-submit:disabled {
+  color: gray;
+  background: rgba(122, 92, 250, 0.3);
+}
+
+.form__btn-cancel {
+  width: 156px;
+  padding: 16px;
+  color: #7a5cfa;
+  background: #fff;
+  border: 1px solid #7a5cfa;
+  border-radius: 8px;
+}

@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 760px;
+  padding: 96px 98px 92px 98px;
+
+  background-color: #fff;
+}
